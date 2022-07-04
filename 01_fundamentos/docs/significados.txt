@@ -1,0 +1,1 @@
+shebang: 'exemplo: #!python3   :: shebang traducao: a coisa a casa o assunto ::  é uma seqüência de caracteres especial em um arquivo de script denotada por #! . Ajuda a especificar o tipo de programa que deve ser chamado para executar todo o arquivo de script. A sequência de caracteres shebang é sempre usada na primeira linha de qualquer arquivo',
