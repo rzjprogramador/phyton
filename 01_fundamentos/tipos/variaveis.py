@@ -9,7 +9,10 @@ b = 4
 texto = 'Sua idade é ... '
 idade = 44
 
-raio = input('Informe o raio da circuferencia: ')
+raio = float(input('Informe o raio da circuferencia: '))
+
+print(raio)
+print(type(raio))
 
 # print(3 * 'bom dia...') # multiplicando valores de variaveis
 # print(4 * texto) # repetindo valores de variaveis com operacao matematica
