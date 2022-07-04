@@ -1,3 +1,7 @@
+# conceito: sao como objetos as importacoes acesse o desejado atraves de "ponto" após o import
+
+## exemplos:
+
 import <pasta.arquivo> 
 # se o arquivo for um modulo imortara todos os modulos do arquivo
 
