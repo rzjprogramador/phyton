@@ -7,4 +7,5 @@
 # IMPORTAR ARQUIVOS
 # import a_pacote.sub.arquivo
 # import b_tipos.variaveis, basicos
-import b_tipos.lista
+# import b_tipos.lista
+import b_tipos.tupla

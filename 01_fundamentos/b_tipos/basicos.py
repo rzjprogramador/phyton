@@ -11,4 +11,5 @@ print(type(False))   # LOGICO          :: <class 'bool'>   :: bool
 print(type(True))    # LOGICO          :: <class 'bool'>   :: bool
 
 # CLASSES DE TIPOS CONTAINER AGRUPADORES:
-# LISTAS - ARRAY == <class 'list'>
+# LISTAS - ARRAY            == <class 'list'>
+# TUPLAS - ARRAY IMUTAVEL   == <class 'tuple'>
