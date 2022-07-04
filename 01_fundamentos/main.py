@@ -6,4 +6,4 @@
 
 # IMPORTAR ARQUIVOS
 # import pacote.sub.arquivo
-import tipos.variaveis
+import b_tipos.variaveis
