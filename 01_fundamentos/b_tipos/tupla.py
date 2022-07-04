@@ -3,7 +3,7 @@
 
 # -----------------------/*    */-----------------------
 # 
-nomes = ('Reinaldo', 'Renata', 'Gustavo')
+nomes = ('Reinaldo', 'Renata', 'Gustavo', 'Eduardo', 'Victor')
 
 # ----------------------------------------------------------------------------
 # PRINTS CONSOLE
@@ -11,15 +11,31 @@ print('reinaldo' in nomes)
 # vai retornar False porque o item na tupla comeca com letra Maiuscula é case sensitive o operador in tem que passar exatamente a pesquisa
 
 # ----------------------------------------------------------------------------
+# -----------------------/*  ACESSOS  */-----------------------
+# conceito posicoes dentro dos colchetes: 
 
+# Posicao a esquerda antes da atribuicao pega a posicao passada
+# "NADA PASSADO" A DIREITA APOS OS 2PONTOS PEGA O ULTIMO
+# -1 >> posicao A DIREITA APOS ATRIBUICAO pega o penultimo
+# -12 >> posicao A DIREITA APOS ATRIBUICAO pega o antepenultimo
+
+# -----------------------/*    */-----------------------
+# 
 # acessar item na tupla pelo indice posicao
-# print(nomes[1]) # 'Renata'
+print(nomes[1]) # 'Renata'
 
 # ----------------------------------------------------------------------------
-
-# acessando pela posicao intercalada no exemplo abaixo da posicao 1 ao 3 entao seria do 2º ao 3º item
+## acessando pela posicao intercalada no exemplo abaixo da posicao 1 ao 3 entao seria do 2º ao 3º item
 print(nomes[1:3]) # ('Renata', 'Gustavo')
 
+# pegando do SEGUNDO AO PENULTIMO item da tupla
+print(f'Do SEGUNDO ao PENULTIMO item da tupla nomes são: {nomes[1:-1]}') 
+
+# pegando do SEGUNDO AO ULTIMO item da tupla
+print(f'Do SEGUNDO ao ULTIMO item da tupla nomes são: {nomes[1:]}') 
+
+# pegando o ultimo item da tupla
+print(f'O ultimo item da tupla nomes é: {nomes[-1]}') 
 
 # -----------------------/*    */-----------------------
 # 
