@@ -5,4 +5,5 @@
 # print(__package__)  # executando aqui : resposta:: None ::  nao tem
 
 # IMPORTAR ARQUIVOS
-import pacote.sub.arquivo
+# import pacote.sub.arquivo
+import tipos.variaveis

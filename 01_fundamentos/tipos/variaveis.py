@@ -6,5 +6,8 @@ comentarioEmVariavel = """
   atribui um comentario em variavel de valor string
 """
 
+
+
+
 print(a + b)
-print(comentarioEmVariavel)
+# print(comentarioEmVariavel)
