@@ -14,6 +14,7 @@ PI = 3.14 # NAO EXISTE CONSTANTE EM PYTHON :: POR CONVERSAO REPRESENTAMOS UMA CO
 raio = float(input('Informe o raio da circuferencia: '))
 area = PI * raio * raio
 
+
 # print(raio)
 # print(type(raio))
 # print(area)
