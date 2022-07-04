@@ -1,3 +1,14 @@
+# conceito: todos tipos sao funcoes que ao envolver um alvo target passa o envolvido par ao tipo da funcao
+# funcoes_de_tipos_conversores:
+"""
+# em todas funcoes de tipo passe o alvo target a ser convertido:
+  str()
+  int()
+  float()
+  list()
+  set()
+"""
+
 
 # type(<target>)  :: type() mostra qual a classe do tipo alvo passado.
 # str(<targetAlvo>)  :: str() converte para string o alvo passado
