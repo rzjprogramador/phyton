@@ -18,7 +18,7 @@ print('reinaldo' in nomes)
 # Posicao a esquerda antes da atribuicao pega a posicao passada
 # "NADA PASSADO" A DIREITA APOS OS 2PONTOS PEGA O ULTIMO
 # -1 >> posicao A DIREITA APOS ATRIBUICAO pega o penultimo
-# -12 >> posicao A DIREITA APOS ATRIBUICAO pega o antepenultimo
+# -2 >> posicao A DIREITA APOS ATRIBUICAO pega o antepenultimo
 
 # -----------------------/*    */-----------------------
 # 
