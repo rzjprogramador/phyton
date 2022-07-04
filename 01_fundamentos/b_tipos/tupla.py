@@ -17,8 +17,9 @@ print('reinaldo' in nomes)
 
 # ----------------------------------------------------------------------------
 
-# acessando pela posicao intercalada no exemplo abaixo da posicao 1 ao 3
-print(nomes[1:3]) # 'Renata', 'Gustavo'
+# acessando pela posicao intercalada no exemplo abaixo da posicao 1 ao 3 entao seria do 2º ao 3º item
+print(nomes[1:3]) # ('Renata', 'Gustavo')
+
 
 # -----------------------/*    */-----------------------
 # 
