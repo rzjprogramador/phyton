@@ -16,7 +16,8 @@ area = PI * raio * raio
 
 # print(raio)
 # print(type(raio))
-print(area)
+# print(area)
+print(f'A area da circuferencia é {area} m2')
 
 # print(3 * 'bom dia...') # multiplicando valores de variaveis
 # print(4 * texto) # repetindo valores de variaveis com operacao matematica
