@@ -19,7 +19,7 @@
 # 
 
 ## EXEMPLOS: 
-# convertendo para interio
+# convertendo para inteiro
 onze = int('11')
 print(onze)
 print(type(onze))

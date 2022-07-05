@@ -9,4 +9,5 @@
 # import b_tipos.variaveis, basicos
 # import b_tipos.lista
 # import b_tipos.tupla
-import b_tipos.conjuntos
+# import b_tipos.conjuntos
+import b_tipos.dicionario
