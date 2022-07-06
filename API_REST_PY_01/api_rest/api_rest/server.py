@@ -1,5 +1,6 @@
 from requests import get
 from fastapi import FastAPI
+from pydantic import BaseModel
 
 app = FastAPI()
 
@@ -50,3 +51,14 @@ async def requisicao(nome: str, idade: int, opcional: str = 'meu id é 1'):
 
   # ENVIADO NA URL: http://localhost:8000/requisicao?nome=Reinado&idade=44
   # RESPOSTA JSON: {"nome":"Reinado","idade":44,"opcional":"meu id é 1"}
+
+  # REQUISICOES POST : VIA CORPO DA REQUISICAO
+  #  METODO POST :: RECEBENDO OBJ DO TIPO CLASSEMODEL COM AS INFORMACOES DO UTILIZADOR E RESPONDENDO O OBJ RECEBIDO. 
+class Produto(BaseModel):
+  nome: str
+  valor: float
+
+@app.post('/produtos')
+async def produtos(produto: Produto):
+  print(produto)
+  return produto

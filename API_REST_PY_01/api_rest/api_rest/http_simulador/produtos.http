@@ -1,0 +1,15 @@
+### 
+# -------------------------------------
+# CADASTRAR DADO
+POST http://localhost:8000/produtos
+# POST {{host}}/produtos
+Content-Type: application/json
+
+{
+    "nome": "5",
+    "valor": 1000
+}
+
+### 
+#------------------------------------
+#
