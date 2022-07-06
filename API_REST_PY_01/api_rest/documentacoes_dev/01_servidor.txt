@@ -1,0 +1,5 @@
+rodar servidor fastAPI:
+obs: entrar na pasta do projeto e : uvicorn server:app --reload
+acessar por default em http://localhost:8000/
+
+acessar_docs_da_api_rest_no_servidor_docs: http://localhost:8000/docs

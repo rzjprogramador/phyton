@@ -41,16 +41,7 @@ instalar_ultima_versao_python: `
 
   },
 
-  projetos_com_poetry: {
-    criar_projeto: `poetry new <NOME_PROJETO>`,
-    startar_pacotes: `entrar na pasta do projeto onde esta o pyproject.toml ::: instalar com :: poetry install  ::: vai criar o lock...`,
-
-    ver_todos_pacotes_instalados_no_projeto: `poetry show`,
-
-    instalar_pacotes: `poetry add <PACOTE>`,
-
-
-  }
+  
 
   {
     pip_instalacoes_recomendadas: {

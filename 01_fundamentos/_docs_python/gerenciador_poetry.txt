@@ -1,0 +1,26 @@
+projetos_com_poetry: {
+    criar_projeto: `poetry new <NOME_PROJETO>`,
+    startar_pacotes: `entrar na pasta do projeto onde esta o pyproject.toml ::: instalar com :: poetry install  ::: vai criar o lock...`,
+
+    ver_todos_pacotes_instalados_no_projeto: `poetry show`,
+
+    instalar_pacotes: `poetry add <PACOTE>`,
+
+
+  }
+
+{
+  ambiente_virtual_poetry: {
+    tutorial: 'https://www.computerworld.com.pt/2020/02/27/como-usar-poetry-na-gestao-de-projetos-python/',
+
+    configurando_env: 'poetry env use python3',
+
+    ambiente_virtual_local: 'Em vez de colocar ambientes virtuais dentro do diretório do projeto, o Poetry coloca-os em um diretório de cache centralizado que varia de acordo com o sistema operativo:
+
+Unix: ~/.cache/pypoetry/virtualenvs',
+
+// pode ir ate ele com cd ~/.cache/pypoetry/virtualenvs
+
+
+  }
+}
