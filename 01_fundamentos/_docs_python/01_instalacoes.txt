@@ -9,20 +9,48 @@ importante: `
 Não tente desinstalar a versão default (2.7) no Linux ou Mac, pois pode invalidar seu uso.
 `,
 
-instalar_ultima_versao_python: `
+// PYENV GERENCIADOR VERSOES PYTHON
+{
+  pyenv: 'O pyenv é um gerenciador de versões do Python que torna possível o acesso a diferentes.',
+  dica_pyenv: 'instale priemiro o pyenv e depois o python que deseja usar.',
+  tutorial: 'https://dev.to/womakerscode/instalando-o-python-com-o-pyenv-2dc7',
+  verificar_instalacao: 'digitar>>  pyenv ...se retornar todos comandos deu sucesso a instalacao. '
 
-  // ADICIONAR REPOSITORIO PYTHON
-  sudo add-apt-repository ppa:deadsnakes/ppa
+}
 
-  // ATUALIZAR O GERENCIADOR DE PACOTES DO LINUX
-  sudo apt-get update
+// INSTALAR PYTHON VIA PYENV
+{
+  desinstalar python: 'sudo apt-get purge --auto-remove python3.10',
+    verificar_se_ficou_vestigios: 'which python3.10'
 
-  // INSTALE O PYTHON PASSANDO A VERSAO DESEJADA
-  // ATUAL : JUNHO 2022 >> VERSAO :: 3.10.5
-  sudo apt-get install python3.10
+dica_instalar_python: 'instalar python pelo pyenv porque podemos escolher a versao a instalar',
 
-`,
+docs_py_env: https://github.com/pyenv/pyenv
 
+ver todos comandos pyenv: 'pyenv',
+ver todas versoes do python instaladas: 'pyenv versions'
+
+listar_todas_versoes_possiveis_instalar_python_via_pyenv: 'pyenv install -list',
+
+ultima_versao_python_instavel: 3.10.0  em 06/2022
+
+instalar_python: 'VERSAO ESCOLHIDA EM 06/2022 >> pyenv install 3.10.0    >> obs: atualmente esta na versao 3.10.5',
+
+recomendacoes: {
+  recomendacao_sobre_instalar_python_global: 'Importante >> NÃO instalar global ..mas se preferir tem os comandos abaixo:: ',
+
+ver_versao_global_usada_pelo_sistema: 'mudar versao usada no sistema>> pyenv global <número da versão do Python que deseja usar>   no exemplo foi usado :: pyenv global 3.10.0'
+}
+
+a_seguir: 'pyenv versions  e depois atualizar shell : exec $SHELL ver onde esta instalado: which python ver versao global: python -V'
+}
+
+// EDITOR VSCODE E PYTHON
+{
+  escolher_a_versao_do_interpretador_python_que_vai_usar_no_projeto: 'F1 Select Interpreter',
+}
+
+// PIP GERENCIADOR DEFAULT
 {
   pip_gerenciador_de_pacotes: {
     instalar: `sudo apt install python3-pip`,
