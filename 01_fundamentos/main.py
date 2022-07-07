@@ -6,8 +6,8 @@
 
 # IMPORTAR ARQUIVOS
 # import a_pacote.sub.arquivo
-# import b_tipos.variaveis, basicos
-# import b_tipos.lista
-# import b_tipos.tupla
-# import b_tipos.conjuntos
-import b_tipos.dicionario
+# import b_tipos.3_variaveis, 1_basicos
+# import b_tipos.4_lista
+# import b_tipos.5_tupla
+# import b_tipos.6_conjuntos
+# import b_tipos.7_dicionario
