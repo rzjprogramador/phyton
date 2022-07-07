@@ -17,6 +17,9 @@ Não tente desinstalar a versão default (2.7) no Linux ou Mac, pois pode invali
   verificar_instalacao: 'digitar>>  pyenv ...se retornar todos comandos deu sucesso a instalacao. '
 
 }
+{
+  antes_de_instalar_python_ajustar_linux: 'sudo apt install zlib1g zlib1g-dev',
+}
 
 // INSTALAR PYTHON VIA PYENV
 {
@@ -32,7 +35,8 @@ ver todas versoes do python instaladas: 'pyenv versions'
 
 listar_todas_versoes_possiveis_instalar_python_via_pyenv: 'pyenv install -list',
 
-ultima_versao_python_instavel: 3.10.0  em 06/2022
+ultima_versao_python_instavel: '3.10.0  em 06/2022'
+escolhas_instalar_python: 'pyenv install 3.10-dev',
 
 instalar_python: 'VERSAO ESCOLHIDA EM 06/2022 >> pyenv install 3.10.0    >> obs: atualmente esta na versao 3.10.5',
 
