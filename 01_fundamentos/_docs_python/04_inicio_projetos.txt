@@ -1,7 +1,0 @@
-
-{
-  definir_versao_local_do_python_na_pasta_que_estiver: {
-    definir_versao_local: 'pyenv local 3.10.5',
-    vai_ser_gerado: 'vai ser gerado um arquivo .python-sersion com a versao do python neste local e sempre que entrar no projeto o pyenv vai setar a versao definida aqui neste arquivo para o projeto.',
-  }
-}

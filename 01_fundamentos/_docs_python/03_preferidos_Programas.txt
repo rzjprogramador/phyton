@@ -1,0 +1,15 @@
+PREFERIDOS GLOBAL : PYTHON VIA PIPX
+black   # pipx install black
+poetry  # pipx install poetry
+
+....................
+
+DEPENDENCIA DO PROJETO POETRY
+poetry add pytest    # pytest para tests
+poetry add pypdf2    # pypdf2 para extrair pdf
+
+
+....................
+
+PREFERENCIAS DEV 
+poetry add --dev black     # formatacao de codigo

@@ -1,2 +1,0 @@
-
-poetry add --dev black     # formatacao de codigo
