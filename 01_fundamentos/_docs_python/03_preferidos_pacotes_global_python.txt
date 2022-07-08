@@ -1,0 +1,3 @@
+
+black   # pipx install black
+poetry  # pipx install poetry

@@ -23,7 +23,7 @@ projetos_com_poetry: {
 
     ativar_ambiente_virtual: 'poetry shell',
 
-    desativar_ambiente_virtual: 'deactive',
+    desativar_ambiente_virtual: 'deactivate',
 
     ver_todos_pacotes_instalados_no_projeto: `poetry show`,
 
