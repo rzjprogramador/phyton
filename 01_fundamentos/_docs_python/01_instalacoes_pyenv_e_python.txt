@@ -3,7 +3,12 @@ ver_versao: `python3 --version`,
 
 site_oficial: `www.python.org`,
 
-ver_onde_esta_instalado: `which python3`,
+ver_caminho_onde_esta_instalado: `which python3`,
+
+caminho_no_linux_onde_esta_instalado_programas_via_pyenv: '/home/rzj/.pyenv/shims/',
+
+caminho_onde_esta_python3_10: '/home/rzj/.pyenv/shims/python3.10',
+
 
 importante: `
 Não tente desinstalar a versão default (2.7) no Linux ou Mac, pois pode invalidar seu uso.

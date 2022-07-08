@@ -15,6 +15,6 @@ ver_local_onde_estao_instalados_global_os_pacotes: 'python3 -m site',
 ver_local_onde_estao_instalados_global_os_pacotes: 'python3 -m site --user-site
 ',
 
-entrar_no_modo_interativo_python: 'python3   .. apra sair exit()',
+entrar_no_modo_interativo_python: 'python3   .. para sair exit()',
 
 tutorial: 'https://www.delftstack.com/pt/howto/python/where-are-python-packages-installed/',
