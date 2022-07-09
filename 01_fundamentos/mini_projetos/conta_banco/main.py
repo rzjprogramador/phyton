@@ -1,5 +1,4 @@
-#!python3
-from modules.conta import ContaBanco
+from conta.conta import ContaBanco
 
 # USO DA CLASSE - INVOCACAO INSTANCIAMENTO
 c1 = ContaBanco()
@@ -9,7 +8,8 @@ c1 = ContaBanco()
 # c1.__saldo = 1000 # ERRO TENTANDO MANIPULAR DIRETAMENTE A PROP
 #  COMO A PROP É PRIVADA NAO CONSIGO MANIPULA-LA DIRETAMENTE SÓ POR METODO
 c1.depositarSaldo(200)
-c1.sacarSaldo(20000)
+c1.depositarSaldo(20000)
+c1.sacarSaldo(10000)
 
 # VER SALDO FINAL
 print(c1.mostrarSaldo())
