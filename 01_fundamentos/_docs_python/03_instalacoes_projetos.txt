@@ -1,0 +1,2 @@
+projeto_graphql_fastapi_sqlite:
+'poetry add fastapi uvicorn[standard] sqlmodel',
