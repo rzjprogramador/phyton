@@ -14,5 +14,5 @@ def mostrarTodos():
   todos = DB.all()
   return todos
 
-def deletarClinete(cliente):
+def deletarCliente(cliente):
   pass
