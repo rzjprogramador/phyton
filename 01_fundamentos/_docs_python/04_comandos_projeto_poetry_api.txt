@@ -1,5 +1,7 @@
 iniciando_projeto_py_poetry:
 '
+# SEQUENCIA CERTA : conceito: Só instalar as dependencias com o env shell ativado:
+
 poetry init -n
 poetry install
 poetry shell
