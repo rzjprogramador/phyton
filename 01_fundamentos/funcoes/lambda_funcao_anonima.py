@@ -17,6 +17,4 @@ conceito: recebe um parametro, devolve este parametro operado modificado, no 2º
 
 narracao: lambda "A CADA VOLTA" "VOU RECEBER ESTE PARAM" : "E VOU VOU DEVOLVER ESTE PARAM DESTA FORMA OPERADO "
 
-# obs foi usado o map() porque no for nao da pra fazer operacoes com o iterador
-
 """
