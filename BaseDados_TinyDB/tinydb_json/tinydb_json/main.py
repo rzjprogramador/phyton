@@ -2,7 +2,7 @@ from model.cliente import Cliente
 from connect.connect import inserir, mostrarTodos, deletarCliente, atualizarCliente
 
 
-# USAR ### OBS: TUDO QUE FOR FEITO NA FUNCAO MAIN É SÓ UMA PREVIA --> SERA FEITO NO FRONT VIEW 
+# USAR 
 
 def main():
   # print(c1.CPF)
@@ -33,15 +33,17 @@ def main():
 
   # MOSTRAR LINHA A LINHA
   todos = mostrarTodos()
-  # for i in todos:
-  #   print(i)
+  for i in todos:
+    print(i)
 
-  # mostrar = [x lambda x in todos]
-  #   print(mostrar)
+  # mostrar = [lambda x: x ,todos]
+  # print(mostrar)
 
 main()
 
 """
+### OBS: TUDO QUE FOR FEITO NA FUNCAO MAIN É SÓ UMA PREVIA --> SERA FEITO NO FRONT VIEW 
+#
 #  OBS: AO RODAR ESTE ARQUIVO MAIN - 
 # VAI RODAR TODO PROJETO >> GERAR E EDITAR O JSON COM DADOS GERADO NA RAIZ DO PROJETO
 # OBS: A BASE DE DADOS JSON GRAVA DIFERENCIADO OS CARACTERES ESPECIAIS ..MAS MOSTRA NORMAL
