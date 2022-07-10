@@ -1,3 +1,11 @@
+iniciando_projeto_py_poetry:
+'
+poetry init -n
+poetry install
+poetry shell
+<depois de ativado ambiente instalar pacotes..e conferir no pyproject.toml se instalou as dependencias>
+
+',
 
 rodar_projeto_uvicorn: '
 uvicorn <ARQUIVO-SERVER>:app --reload
