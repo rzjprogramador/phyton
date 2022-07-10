@@ -1,0 +1,8 @@
+
+rodar_projeto_uvicorn: '
+uvicorn <ARQUIVO-SERVER>:app --reload
+exemplo:
+uvicorn exemplo_01:app --reload
+
+vai abrir na web: http://localhost:8000/
+'

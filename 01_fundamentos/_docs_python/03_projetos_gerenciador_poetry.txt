@@ -23,6 +23,8 @@ projetos_com_poetry: {
 
     ativar_ambiente_virtual: 'poetry shell',
 
+    local_do_ambiente_env: ' /home/rzj/.cache/pypoetry/virtualenvs/<pasta_projeto>   # se instalou com poetry new >> posso ir ate neste endereco deletar e dar um install pro env ficar na versao certa do py. '
+
     desativar_ambiente_virtual: 'deactivate',
 
     ver_todos_pacotes_instalados_no_projeto: `poetry show`,
