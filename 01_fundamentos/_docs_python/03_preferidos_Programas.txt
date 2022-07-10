@@ -1,12 +1,14 @@
 PREFERIDOS GLOBAL : PYTHON VIA PIPX
 black   # pipx install black
 poetry  # pipx install poetry
+tinyDB  # pipx install tinydb ## TODO nao instalou via pipx na doc esta mandando instalar via pip install tinydb doc: https://pypi.org/project/tinydb/#description
 
 ....................
 
 DEPENDENCIA DO PROJETO POETRY
 poetry add pytest    # pytest para tests
 poetry add pypdf2    # pypdf2 para extrair pdf
+poetry add tinydb    # base de dados em json
 
 
 ....................

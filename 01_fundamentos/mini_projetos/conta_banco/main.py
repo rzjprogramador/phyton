@@ -1,7 +1,7 @@
 from conta.conta import ContaBanco
 
 # USO DA CLASSE - INVOCACAO INSTANCIAMENTO
-c1 = ContaBanco()
+c1 = ContaBanco('Reinaldo', '111')
 
 # USO DA INSTANCIA - ACOES DA INSTANCIA
 # print(c1.saldo)
