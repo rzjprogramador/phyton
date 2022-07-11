@@ -1,0 +1,3 @@
+libs: {
+  httpie: 'sudo apt install httpie  # para interagir http no terminal'
+}
