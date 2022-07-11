@@ -15,3 +15,4 @@ poetry add tinydb    # base de dados em json
 
 PREFERENCIAS DEV 
 poetry add --dev black     # formatacao de codigo
+poetry add --dev httpie  # interacao http tipo navagador no terminal

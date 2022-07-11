@@ -1,7 +1,7 @@
 from typing import Optional
 from fastapi import FastAPI
 from sqlmodel import (
-  SQLModel, Field, create_engine
+  SQLModel, Field, create_engine, select, Session
 )
 
 engine = create_engine('sqlite:///database.db') # CRIA A ENGINE
@@ -18,3 +18,10 @@ SQLModel.metadata.create_all(engine) # CRIA O BANCO DE DADOS ## OBS: TEM QUE FIC
 @app.get('/')
 def home():
   return {'message': 'DEU BOM'}
+
+@app.get('/cliente')
+def get_cliente():
+  query = select(Cliente)
+  with Session(engine) as session:
+    result = session.execute(query).scalars().all()
+    return result

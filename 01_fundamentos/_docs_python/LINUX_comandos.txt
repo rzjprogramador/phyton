@@ -5,3 +5,5 @@ reiniciar_shell: 'exec $SHELL',
 caminho_onde_esta_instaldo_programa: 'which python3',
 
 cat arquivo.extensao    # ver conteudo de arquivo
+
+desinstalar programa instalado com sudo no linux: sudo apt-get --purge remove <PROGRAMA_ALVO>

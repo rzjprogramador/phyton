@@ -1,3 +1,5 @@
 libs: {
-  httpie: 'sudo apt install httpie  # para interagir http no terminal'
+  httpie: '
+  somente_no_projeto poetry :  poetry add --dev httpie
+  global no linux: sudo apt install httpie  # para interagir http no terminal'
 }
