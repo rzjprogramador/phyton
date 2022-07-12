@@ -1,0 +1,10 @@
+### LIBS USAR:
+
+ipython: 'flag -n vai abrr o arquivo : ipython -n <arquivo.extensao>'
+
+httpie: 'http get : 8000/cliente ###com o ENV ativado >> digo: http faz um get na porta <breakpoint rest>'
+
+---
+
+### RODAR RUN EXECUTAR ARQUIVOS:
+uvicorn <arquivo>:app --reload  ### roda o server da api com fastAPI
