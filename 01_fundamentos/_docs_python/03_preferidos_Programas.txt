@@ -1,4 +1,5 @@
 PREFERIDOS GLOBAL : PYTHON VIA PIPX
+ipython # pipx install ipython  ## console interativo python
 black   # pipx install black
 poetry  # pipx install poetry
 tinyDB  # pipx install tinydb ## TODO nao instalou via pipx na doc esta mandando instalar via pip install tinydb doc: https://pypi.org/project/tinydb/#description

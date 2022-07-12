@@ -1,0 +1,1 @@
+usar_ipython: 'flag -n vai abrr o arquivo : ipython -n <arquivo.extensao>'
