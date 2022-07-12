@@ -19,7 +19,7 @@ Não tente desinstalar a versão default (2.7) no Linux ou Mac, pois pode invali
   pyenv: 'O pyenv é um gerenciador de versões do Python que torna possível o acesso a diferentes.',
   dica_pyenv: 'instale priemiro o pyenv e depois o python que deseja usar.',
   tutorial: 'https://dev.to/womakerscode/instalando-o-python-com-o-pyenv-2dc7',
-  verificar_instalacao: 'digitar>>  pyenv ...se retornar todos comandos deu sucesso a instalacao. '
+  verificar_instalacao: 'digitar >>  pyenv ...se retornar todos comandos deu sucesso a instalacao. '
 
 }
 {
