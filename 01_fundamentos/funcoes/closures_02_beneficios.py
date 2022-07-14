@@ -16,6 +16,7 @@ resumo: tudo qeu acontecer na Pai fica como heranca disponivel pra ser usada na 
 
 def externa(idioma): 
   # PAI RECEBE ARGS MAS NAO USA QUEM VAI USAR É A FILHA - DEPOIS DO PAI DEFINIR O QUE SERA O ARG
+  # DEIXANDO FONTE DA DADOS QUE A FILHA VAI PODER USAR VIA ARGUMENTOS
   saudacoes = {'pt': 'Ola', 'en': 'Hello', 'esp': 'Ahoy'}
 
   def interna(nome):
