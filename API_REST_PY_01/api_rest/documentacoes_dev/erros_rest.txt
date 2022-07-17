@@ -1,5 +1,0 @@
-{
-  erro: '{"detail":"Not Found"}',
-  causa: 'faltou colocar a variavel para capturar a mensagem vinda na url',
-  solucao: 'coloque a variavel apram para capturar a requisicao',
-}

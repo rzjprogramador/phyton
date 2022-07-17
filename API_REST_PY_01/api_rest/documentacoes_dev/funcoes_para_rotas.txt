@@ -1,6 +1,0 @@
-FUNCOES PARA ROTAS:
-{
-
-  formato de saida: 'o formato de saida das respostas das funcoes é sempre um dicionario
-  por ser semelhante a um json',
-}

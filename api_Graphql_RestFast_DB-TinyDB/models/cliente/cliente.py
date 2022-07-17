@@ -1,11 +1,9 @@
-# from typing import Optional
+from pydantic import BaseModel
 
+class Cliente(BaseModel):
+  id: str
+  nome: str
+  email: str
+  password: str
 
-# from typing import Optional
-
-# class Cliente:
-#   def __init__(self, nome, email, password):
-#     self.nome = nome
-#     self.email = email
-#     self.password = password 
 
