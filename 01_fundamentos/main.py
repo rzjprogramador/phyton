@@ -11,3 +11,5 @@
 # import b_tipos.5_tupla
 # import b_tipos.6_conjuntos
 # import b_tipos.7_dicionario
+
+from funcoes.lambda_funcao_anonima import potencializados
