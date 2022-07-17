@@ -1,0 +1,10 @@
+poetry init -n
+
+definir versao py do projeto
+
+pyenv local 3.10.5
+
+poetry install
+poetry shell
+
+poetry add fastapi
