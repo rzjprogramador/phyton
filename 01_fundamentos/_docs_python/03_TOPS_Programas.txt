@@ -10,6 +10,7 @@ DEPENDENCIA DO PROJETO POETRY
 poetry add pytest    # pytest para tests
 poetry add pypdf2    # pypdf2 para extrair pdf
 poetry add tinydb    # base de dados em json
+poetry add pydantic # para usar o BaseModel para classes e mais...
 
 
 ....................

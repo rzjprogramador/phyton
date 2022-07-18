@@ -4,11 +4,19 @@ signinificados:
 obs: posso criar ilimitados ambientes virtuis na mesma pasta d eprojeto
 
 no diretorio desejado:
-python -m venv <NOME_DO_AMBIENTE>   ### vai criar a pasta do projeto
-digite: source <caminho ate a pasta /bin >/activate
+python -m venv <NOME_DO_AMBIENTE>   ### diga: python -modulo venv <NomeAmbiente>
+### vai criar a pasta do projeto
+ativar_env_digite: source <caminho ate a pasta /bin >/activate
+
+# onde esta guardando as libs com o venv ativado :: na pasta lib/versaoPy/site-packages
+
+posso conferir no menu interativo : python    ## com
+import site
+site.getsitepackages()
+vai mostrar o caminho : /lib/python3.10/site-packages # dentro do proprio local estara salvando as libs..obs: se eu desativar e ver com o site.getsitepackages() de novo vai mostrar o python global.
 
 ...
-PREPRAR PIP PARA INSTALAR PACOTES SÓ NO PROJETO ATUAL
+PREPARAR PIP PARA INSTALAR PACOTES SÓ NO PROJETO ATUAL
 python -m pip install --upgrade pip
 
 .....

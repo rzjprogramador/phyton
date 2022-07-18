@@ -1,0 +1,14 @@
+# BASE DE DADOS EM JSON COM TINYDB
+
+1 - classe modelo do objeto
+
+2 - conexao: importa o tinydb e a classe modelo
+ - a tabelaDesejada = sera o TinyDB('TabelaDesejada.json')
+
+3 - funcao para inserir Modelo passando o modelo: do tipo da ClasseModelo: entao:
+ tabelaDesejada.insert() para inserir passa um dicionario comos campos linkados com o que vira do objeto modelo recebido que o utilizador enviará
+
+4- main: 
+ - em uma funcao main() executar a instancia do modelo preenchendo os args 
+ - e passar o objeto criado para a funcao que InsereModelo()
+ - e executar este main()
