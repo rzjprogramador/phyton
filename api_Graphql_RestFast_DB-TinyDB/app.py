@@ -1,13 +1,11 @@
-from fastapi import FastAPI
-from tinydb import TinyDB
+from handlers.clientes_db import CreateClienteDB
 from models.cliente.cliente import Cliente
+
+from fastapi import FastAPI
 from typing import List
 
 
 app = FastAPI()
-
-# CONNECT
-clientesDB = TinyDB('db.json')
 
 clientesMemory: List[Cliente] = []
 
@@ -17,6 +15,6 @@ def getAllClientes():
 
 
 @app.post('/criar_cliente')
-def criarCliente(cliente: Cliente):
-  # clientesDB.insert(dict(cliente))
+def createCliente(cliente: Cliente):
+  CreateClienteDB(cliente)
   return {'message': 'OK ! Criado com Sucesso!'}

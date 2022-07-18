@@ -5,7 +5,7 @@ description = ""
 authors = ["rzjprogramador <rzjprogramador@gmail.com>"]
 
 [tool.poetry.dependencies]
-python = "^3.10.2"
+python = "^3.10.0"
 fastapi = "^0.79.0"
 tinydb = "^4.7.0"
 
