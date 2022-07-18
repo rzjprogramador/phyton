@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from classExemplo2 import Exemplo02
+from exemplo_classes.classe_exemplo_02 import Exemplo03
 # from exemplo_01 import Exemplo01, InserirExemploNaTabela
 
 app = FastAPI()
@@ -9,7 +9,7 @@ def home():
   return { 'message': 'Alo Home'}
 
 @app.post('/criar-exemplo')
-def criarExemplo(request: Exemplo02):
+def criarExemplo(request: Exemplo03):
   print(request)
   return request
   # resposta = InserirExemploNaTabela(request)

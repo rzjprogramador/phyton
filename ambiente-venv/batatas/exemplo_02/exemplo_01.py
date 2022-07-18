@@ -1,7 +1,7 @@
 from pydantic import BaseModel
 from tinydb import TinyDB
 
-exemplo01DB = TinyDB('Exemplo_01.json')
+exemplo01DB = TinyDB('Exemplo_02.json')
 
 class Exemplo01(BaseModel):
   nome: str

@@ -1,4 +1,4 @@
-from exemplo_00.model import Pessoa
+from model import Pessoa
 from connect import InserirPessoa
 
 
