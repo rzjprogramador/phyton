@@ -7,19 +7,15 @@ class Outra(BaseModel):
   nome: str
   idade: int
 
-# CLASSE BASEMODEL NAO PRECISO INSTANCIAR - 
 # 1- CRIO UM DICIONARIO COM AS INFO DA INSTACIA 
 
 request = { 'nome':'Rei', 'idade': 44 }
 
-# 2 - FAZ FUNCAO QUE RECEBERA EMPACOTADO A CLASSE MODEL
-# USA A TABELA. INSERT() ESPERANDO RECEBER UM MODEL EMPACOTADO QUE SERA O OBJ DA CLASSE BaseModel
+# 2 - FAZ FUNCAO QUE RECEBERA E APLICARÁ O OBJ EMPACOTADO DA CLASSE BASEMODEL
 
 def InserirOutra(model: Outra):
-  outraDB.insert( outra )
+  outraDB.insert( model )
 
-# 3- EXECUTA A FUNCAO QUE INSERE OS DADOS REQUEST VINDO EM DICIONARIO/JSON 
-def main():
-  InserirOutra(request)
-  
-main()
+# 3- EXECUTA A FUNCAO DEVOLVENDO O OBJ EM DICIONARIO/JSON 
+
+InserirOutra(request)
