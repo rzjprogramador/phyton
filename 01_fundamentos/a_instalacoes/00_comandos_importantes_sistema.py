@@ -1,0 +1,1 @@
+# atualizar_pip: pip install --upgrade pip
