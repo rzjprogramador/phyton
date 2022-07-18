@@ -1,5 +1,5 @@
 from handlers.clientes_db import CreateClienteDB
-from models.cliente.cliente import Cliente
+from models.cliente import Cliente
 
 from fastapi import FastAPI
 from typing import List

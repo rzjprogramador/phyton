@@ -1,4 +1,4 @@
-from models.cliente.cliente import Cliente
+from models.cliente import Cliente
 from tinydb import TinyDB
 
 # CONNECT
