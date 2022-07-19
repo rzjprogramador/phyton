@@ -1,6 +1,0 @@
-# PIPX :: PARA INSTALACOES DE USO GLOBAL 
-
-pipx install <PACKAGE>    # instalar programas com pipx
-
- pipx list  # ver programas instalados pipx
-  

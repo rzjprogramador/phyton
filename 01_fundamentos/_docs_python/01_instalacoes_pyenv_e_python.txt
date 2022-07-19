@@ -48,7 +48,7 @@ instalar_python: 'VERSAO ESCOLHIDA EM 06/2022 >> pyenv install 3.10.0    >> obs:
 recomendacoes: {
   recomendacao_sobre_instalar_python_global: 'Importante >> NÃO instalar global ..mas se preferir tem os comandos abaixo:: ',
 
-ver_versao_global_usada_pelo_sistema: 'mudar versao usada no sistema>> pyenv global <número da versão do Python que deseja usar>   no exemplo foi usado :: pyenv global 3.10.0'
+ver_versao_global_usada_pelo_sistema: 'mudar versao usada no sistema>> pyenv global <número da versão do Python que deseja usar>   no exemplo foi usado :: pyenv global 3.10.5'
 }
 
 a_seguir: 'pyenv versions  e depois atualizar shell : exec $SHELL ver onde esta instalado: which python ver versao global: python -V'
