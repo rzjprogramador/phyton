@@ -1,0 +1,4 @@
+acesso_mongo_vscode: 
+  extensao: MongoDB for VS Code
+  link: https://marketplace.visualstudio.com/items?itemName=mongodb.mongodb-vscode
+  

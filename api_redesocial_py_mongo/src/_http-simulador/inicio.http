@@ -5,23 +5,15 @@ GET http://localhost:5000/api/usuario/all
 
 
 ###
-# VIEW TODOS CRIADOS
-GET {{host}}/clientes
-Content-Type: application/json
-
-
-
-###
-# CRIAR 1º
-POST {{host}}/criar_cliente
+# CRIAR
+POST {{host}}/api/usuario/create
 Content-Type: application/json
 
 {
-  "id": "1",
-  "nome": "admin",
-  "email": "admin@email.com",
-  "password": "123"
+  "nome": "Nome_Via_Http_1",
+  "email": "user@example.com",
+  "password": "string",
+  "foto": "string"
 }
 
 ###
-# 

@@ -7,7 +7,7 @@ authors = ["rzjprogramador <rzjprogramador@gmail.com>"]
 [tool.poetry.dependencies]
 python = "^3.10.5"
 fastapi = "^0.79.0"
-pydantic = "^1.9.1"
+pydantic = {extras = ["email"], version = "^1.9.1"}
 
 [tool.poetry.dev-dependencies]
 uvicorn = "^0.18.2"
