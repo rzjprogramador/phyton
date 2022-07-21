@@ -10,13 +10,17 @@ database = clientDB.redesocial01
 user_collection = database.get_collection('user')
 
 async def CreateUserRepo(user: User) -> dict:
-  create_user = await user_collection.insert_one(user.__dict__)
-  new_user = await user_collection.find_one({"_id": create_user.inserted_id})
+  try:
+    create_user = await user_collection.insert_one(user.__dict__)
+    new_user = await user_collection.find_one({"_id": create_user.inserted_id})
 
-  # SÓ VISUALIZACAO
-  return {
-    'nome': new_user['nome'],
-    'email': new_user['email'],
-    'password': new_user['password'],
-    'foto': new_user['foto']
-  }
+    # SÓ VISUALIZACAO
+    return {
+      'nome': new_user['nome'],
+      'email': new_user['email'],
+      'password': new_user['password'],
+      'foto': new_user['foto']
+    }
+
+  except Exception as erro:
+    print('Erro Inesperado Capturado')

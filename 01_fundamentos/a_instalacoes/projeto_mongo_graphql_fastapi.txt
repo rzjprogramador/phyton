@@ -1,0 +1,11 @@
+
+pydantic fastapi uvicorn[standard] 
+
+# BY MONGO COM ODM odmantic :
+poetry add odmantic
+
+# OBSERVACAO DO DOCKER USAR IMAGE PRA CPU ANTIGAS
+image: mongo:4.4.7-focal   ### SENAO NAO SOBE A IMAGE MAIS RECENTE DO MONGO
+
+# ACESSAR MONGO EXPRESS ## ESTA CONFIGURADO A PORTA NO COMPOSE TBM
+http://localhost:8081/
