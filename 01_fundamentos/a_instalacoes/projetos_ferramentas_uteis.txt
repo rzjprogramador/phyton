@@ -1,0 +1,5 @@
+ipython ### para entrar no modo interativo - TENDO INSTALADO JA GLOBAL: pipx install ipython
+uso:
+VÁ ATE A ṔASTA DO ARQUIVO ALVO E DIGITE : ipython
+
+---
